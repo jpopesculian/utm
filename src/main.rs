@@ -77,7 +77,7 @@ struct Args {
     base: u8,
 
     /// Pitch bend range in semitones (set via RPN at startup).
-    #[arg(long = "bend-range", default_value_t = 2)]
+    #[arg(long = "bend-range", default_value_t = 48)]
     bend_range: u8,
 }
 
